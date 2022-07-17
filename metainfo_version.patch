@@ -1,0 +1,14 @@
+diff --git a/zola.metainfo.xml b/zola.metainfo.xml
+index 53bac7c0..85d2fa3e 100644
+--- a/zola.metainfo.xml
++++ b/zola.metainfo.xml
+@@ -52,6 +52,9 @@
+   <content_rating type="oars-1.1" />
+ 
+   <releases>
++    <release version="0.16.0" date="2022-07-16">
++      <url>https://github.com/getzola/zola/releases/tag/v0.16.0</url>
++    </release>
+     <release version="0.15.3" date="2022-01-22">
+       <url>https://github.com/getzola/zola/releases/tag/v0.15.3</url>
+     </release>
