@@ -1,0 +1,32 @@
+From 9790adb1f1172c7be385d160d1ec2951b99aa92b Mon Sep 17 00:00:00 2001
+From: Ayush Singh <ayushsingh1325@gmail.com>
+Date: Sat, 4 Mar 2023 18:10:48 +0530
+Subject: [PATCH] Update Metainfo
+
+Add v0.17.0 and v0.17.1
+
+Signed-off-by: Ayush Singh <ayushsingh1325@gmail.com>
+---
+ zola.metainfo.xml | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/zola.metainfo.xml b/zola.metainfo.xml
+index 2d6cad3e..0d3fd322 100644
+--- a/zola.metainfo.xml
++++ b/zola.metainfo.xml
+@@ -52,6 +52,12 @@
+   <content_rating type="oars-1.1" />
+ 
+   <releases>
++    <release version="0.17.1" date="2023-02-24">
++      <url>https://github.com/getzola/zola/releases/tag/v0.17.1</url>
++    </release>
++    <release version="0.17.0" date="2023-02-16">
++      <url>https://github.com/getzola/zola/releases/tag/v0.17.0</url>
++    </release>
+     <release version="0.16.1" date="2022-08-14">
+       <url>https://github.com/getzola/zola/releases/tag/v0.16.1</url>
+     </release>
+-- 
+2.39.2
+
