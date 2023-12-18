@@ -1,0 +1,26 @@
+From db526689127e0b052eb69b3164a766ba61090221 Mon Sep 17 00:00:00 2001
+From: Newbyte <newbyte@postmarketos.org>
+Date: Mon, 18 Dec 2023 20:58:42 -0500
+Subject: [PATCH] Metainfo: Add 0.18.0
+
+---
+ zola.metainfo.xml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/zola.metainfo.xml b/zola.metainfo.xml
+index de5566ae..9e1e16b0 100644
+--- a/zola.metainfo.xml
++++ b/zola.metainfo.xml
+@@ -52,6 +52,9 @@
+   <content_rating type="oars-1.1" />
+ 
+   <releases>
++    <release version="0.18.0" date="2023-12-18">
++      <url>https://github.com/getzola/zola/releases/tag/v0.18.0</url>
++    </release>
+     <release version="0.17.2" date="2023-03-19">
+       <url>https://github.com/getzola/zola/releases/tag/v0.17.2</url>
+     </release>
+-- 
+2.43.0
+
