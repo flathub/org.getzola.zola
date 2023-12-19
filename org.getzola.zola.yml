@@ -25,8 +25,8 @@ modules:
       - install -D ./zola.metainfo.xml $FLATPAK_DEST/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/getzola/zola/archive/refs/tags/v0.17.2.tar.gz
-        sha256: 471238f38076803cb2af1c53cf418280ae51694fbcc2e547da3f6715a718c750
+        url: https://github.com/getzola/zola/archive/refs/tags/v0.18.0.tar.gz
+        sha256: c0e1711a68bc005c2e0ecc76a468f3459739c9e54af34850cb725d04391e19b5
         x-checker-data:
           type: json
           url: https://api.github.com/repos/getzola/zola/releases/latest
@@ -34,5 +34,5 @@ modules:
           url-query: '@uri "https://github.com/getzola/zola/archive/refs/tags/\(.tag_name).tar.gz"'
           timestamp-query: .published_at
       - type: patch
-        path: 0001-Update-Metainfo.patch
+        path: 0001-Metainfo-Add-0.18.0.patch
       - cargo-sources.json
