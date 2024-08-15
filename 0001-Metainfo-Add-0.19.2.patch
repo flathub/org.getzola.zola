@@ -1,0 +1,26 @@
+From ec8457d23dfd8f51757e47056b2cf62bdf031491 Mon Sep 17 00:00:00 2001
+From: Stefan Hansson <newbyte@postmarketos.org>
+Date: Sun, 18 Aug 2024 12:07:35 +0200
+Subject: [PATCH] Metainfo: Add 0.19.2
+
+---
+ zola.metainfo.xml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/zola.metainfo.xml b/zola.metainfo.xml
+index 15bc1c0d..d9a55d05 100644
+--- a/zola.metainfo.xml
++++ b/zola.metainfo.xml
+@@ -51,6 +51,9 @@
+   <content_rating type="oars-1.1" />
+ 
+   <releases>
++    <release version="0.19.2" date="2024-08-15">
++      <url>https://github.com/getzola/zola/releases/tag/v0.19.2</url>
++    </release>
+     <release version="0.19.1" date="2024-06-24">
+       <url>https://github.com/getzola/zola/releases/tag/v0.19.1</url>
+     </release>
+-- 
+2.45.2
+
