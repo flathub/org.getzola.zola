@@ -1,8 +1,9 @@
-From ec8457d23dfd8f51757e47056b2cf62bdf031491 Mon Sep 17 00:00:00 2001
+From 2b40a123f85e37be1621294306f864746918adbc Mon Sep 17 00:00:00 2001
 From: Stefan Hansson <newbyte@postmarketos.org>
 Date: Sun, 18 Aug 2024 12:07:35 +0200
-Subject: [PATCH] Metainfo: Add 0.19.2
+Subject: [PATCH 1/2] Metainfo: Add 0.19.2
 
+Signed-off-by: Ayush Singh <ayush@beagleboard.org>
 ---
  zola.metainfo.xml | 3 +++
  1 file changed, 3 insertions(+)
@@ -22,5 +23,5 @@ index 15bc1c0d..d9a55d05 100644
        <url>https://github.com/getzola/zola/releases/tag/v0.19.1</url>
      </release>
 -- 
-2.45.2
+2.48.1
 
