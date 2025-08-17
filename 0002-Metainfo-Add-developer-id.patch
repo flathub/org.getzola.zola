@@ -1,0 +1,28 @@
+From 957cc7d1375e18a4a7c4fa2ed5d38b41fd3ded95 Mon Sep 17 00:00:00 2001
+From: Ayush Singh <ayush@beagleboard.org>
+Date: Sun, 17 Aug 2025 18:53:19 +0530
+Subject: [PATCH] Metainfo: Add developer-id
+
+- This is a required field for flathub metainfo check
+
+Signed-off-by: Ayush Singh <ayush@beagleboard.org>
+---
+ zola.metainfo.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/zola.metainfo.xml b/zola.metainfo.xml
+index ddf1d94a..d7afddaf 100644
+--- a/zola.metainfo.xml
++++ b/zola.metainfo.xml
+@@ -5,7 +5,7 @@
+ 
+   <name>Zola</name>
+   <summary>A fast static site generator in a single binary with everything built-in</summary>
+-  <developer>
++  <developer id="org.getzola">
+     <name>Vincent Prouillet and contributors</name>
+   </developer>
+ 
+-- 
+2.50.1
+
