@@ -25,14 +25,12 @@ modules:
       - install -D ./zola.metainfo.xml $FLATPAK_DEST/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/getzola/zola/archive/refs/tags/v0.22.0.tar.gz
-        sha256: 75274ca54c97da2f24645568e2c7024f6661ce002e8f7e09d6cd30bae7b73b0a
+        url: https://github.com/getzola/zola/archive/refs/tags/v0.22.1.tar.gz
+        sha256: 0f59479e05bce79e8d5860dc7e807ea818986094469ed8bf0bb46588ade95982
         x-checker-data:
           type: json
           url: https://api.github.com/repos/getzola/zola/releases/latest
           version-query: .tag_name | sub("^v"; "")
           url-query: '@uri "https://github.com/getzola/zola/archive/refs/tags/\(.tag_name).tar.gz"'
           timestamp-query: .published_at
-      - type: patch
-        path: 0001-Fix-license-in-metainfo.patch
       - cargo-sources.json
