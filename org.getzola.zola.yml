@@ -33,6 +33,4 @@ modules:
           version-query: .tag_name | sub("^v"; "")
           url-query: '@uri "https://github.com/getzola/zola/archive/refs/tags/\(.tag_name).tar.gz"'
           timestamp-query: .published_at
-      - type: patch
-        path: 0001-Fix-license-in-metainfo.patch
       - cargo-sources.json
