@@ -25,8 +25,8 @@ modules:
       - install -D ./zola.metainfo.xml $FLATPAK_DEST/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/getzola/zola/archive/refs/tags/v0.22.1.tar.gz
-        sha256: 0f59479e05bce79e8d5860dc7e807ea818986094469ed8bf0bb46588ade95982
+        url: https://github.com/getzola/zola/archive/refs/tags/v0.23.2.tar.gz
+        sha256: f46f911079913845e76f3c446eb99d3b27546a3c302a1c411c6995fef498eaff
         x-checker-data:
           type: json
           url: https://api.github.com/repos/getzola/zola/releases/latest
